@@ -1,4 +1,3 @@
-  <script>
         function getUserLanguage() {
             return navigator.language || navigator.userLanguage;
         }
@@ -5001,8 +5000,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             setContent(currentLanguage);
         });
-    </script>
-      <script>
+     
         document.addEventListener("DOMContentLoaded", () => {
     // Данные для каждого дня и зала
     const programData = {
@@ -5052,8 +5050,8 @@
       }
     });
   });
-         </script>
-           <script>
+       
+          
             // Установите дату и время окончания отсчета
             const endDate = new Date("2024-09-24T23:59:59").getTime();
             // Функция обновления таймера
@@ -5096,4 +5094,4 @@
       
             // Начальная установка таймера
             updateCountdown();
-          </script>
+      
